@@ -16,7 +16,7 @@ The models implemented in this package extend the models proposed in the followi
 Content of the package:
 - learn_parameters.py : handles the main learning process.
 - data/ : contains all datasets, namely FB13, FB15k, WN11, WN18, DBpedia 2014, YAGO3. FB13, FB15k, WN11 and WN18 are used in related works in literature; DBpedia 2014 and YAGO3 are two additional large datasets from the Semantic Web literature.
-- energy/ : contains all code neede for defining and training the models (loss functionals, dissimilarity functions, adaptive learning rate selectors such as AdaGrad, AdaDelta and Momentum, and so on and so forth)
+- energy/ : contains all code neede for defining and training the models (loss functionals, dissimilarity functions, adaptive learning rate selectors such as AdaGrad, AdaDelta and Momentum, code for leveraging additional RDF Schema information etc.)
 - scripts/ : contains all scripts used for running the experiments - each script generates a sequence of commands, and multiple commands can be run in parallel (e.g. by using the GNU Parallel utility).
 
 
