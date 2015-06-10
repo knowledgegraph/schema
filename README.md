@@ -5,8 +5,11 @@ Leveraging Ontological Schema Information in Embedding Models for Knowledge Grap
 -----------------------------------------------------------------
 
 This package contains all source code and datasets for:
+
 1.  Efficient training of Energy-Based Models for Knowledge Graphs.
+
 2.  Leveraging Schema Information (expressed in RDF Schema) during learning.
+
 
 The models implemented in this package extend the models proposed in the following works:
 - **Translating Embeddings** (TransE) - Bordes et al., NIPS 2013.
