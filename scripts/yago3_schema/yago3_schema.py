@@ -39,7 +39,7 @@ c, method = 0, 'ADAGRAD'
 # def adagrad(param, rate, epsilon, gradient, updates, param_squared_gradients):
 cmd_adagrad = ('./learn_parameters.py --seed=%d --strategy=%s --totepochs=%d --test_all=%d --lr=%f --name=yago3_schema/yago3_%s_%d '
                 ' --train=%s --valid=%s --test=%s --nbatches=%d --no_rescaling --filtered '
-                ' --domain_range=data/yago3_type/mte10/yago3_domains_ranges.pkl '
+                ' --domain_range=data/yago3_schema/yago3_domains_ranges.pkl '
                 ' --op=%s --sim=%s --ndim=%d --nhid=%d --margin=%d' # varying params
                 ' > logs/yago3_schema/yago3_schema.%s_%s_%d_%d_%d_%d.log 2>&1')
 
